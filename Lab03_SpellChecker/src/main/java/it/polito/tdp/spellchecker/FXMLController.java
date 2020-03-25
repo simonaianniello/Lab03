@@ -87,7 +87,7 @@ public class FXMLController {
     	txtError.setText(ris);
     	txtNum.setText("The text contains "+ dizionario.conta()+" error");
     	end=System.nanoTime();
-    	txtTime.setText("Il tempo impiegato e' "+(end-start)/1e9 + " secondi.");
+    	txtTime.setText("Il tempo impiegato e' "+ (end-start)/1e9 + " secondi.");
     }
 
     @FXML
